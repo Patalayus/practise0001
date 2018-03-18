@@ -1,5 +1,5 @@
-public class secondary extends main{
-    private void take(Double w, Double x, Double y){
+public class secondary{
+    public void take(Double w, Double x, Double y){
 
     }
 }
