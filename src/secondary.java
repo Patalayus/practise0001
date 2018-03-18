@@ -1,5 +1,6 @@
 public class secondary{
-    public void take(Double w, Double x, Double y){
+    public void secondary(Double w, Double x, Double y){
+        System.out.println("The number are "+w+x+y);
 
     }
 }
