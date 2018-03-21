@@ -33,8 +33,6 @@ public class main extends secondary{
                 count0++;
                 jump2.secondary(num1, num2, num3);
             }
-
         }
     }
-
 }
