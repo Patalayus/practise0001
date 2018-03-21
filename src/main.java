@@ -11,8 +11,12 @@ public class main extends secondary{
 
     //this is the main module which is executed when the program is ran
     public static void main(String []args){
+        Scanner mainsc = new Scanner(System.in);
         main jump = new main();
         jump.start();
+        System.out.println("Please enter a number");
+        int integer = mainsc.nextInt();
+        jump.increment(integer,4,5);
     }
 
     //start module which is then used to jump to another class in the directory
