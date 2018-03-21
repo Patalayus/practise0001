@@ -3,11 +3,11 @@ import java.util.Scanner;
 public class main extends secondary{
     /*this is where i've declared the public variable which I will be using
     to write my program successfully.*/
-    public int count0;
-    public int num1;
-    public int num2;
-    public int num3;
-    public Scanner read = new Scanner(System.in);
+    private int count0;
+    private int num1;
+    private int num2;
+    private int num3;
+    private Scanner read = new Scanner(System.in);
 
     //this is the main module which is executed when the program is ran
     public static void main(String []args){
@@ -20,7 +20,7 @@ public class main extends secondary{
     }
 
     //start module which is then used to jump to another class in the directory
-    public void start(){
+    private void start(){
         secondary jump2 = new secondary();
         for(int i = 0; i < 3; i++) {
             if (count0 == 0) {
@@ -40,3 +40,4 @@ public class main extends secondary{
         }
     }
 }
+
