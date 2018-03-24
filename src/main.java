@@ -17,6 +17,12 @@ public class main extends secondary{
         System.out.println("Please enter a number");
         int integer = mainsc.nextInt();
         jump.increment(integer,4,5);
+        jump.alteration();
+    }
+
+    //this method is executed after the increment method.
+    private void alteration() {
+
     }
 
     //start module which is then used to jump to another class in the directory
